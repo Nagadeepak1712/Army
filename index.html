@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZSOS Army Hub | Defense Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              army: {
+                50: '#f4f5f0',
+                100: '#e3e6d8',
+                200: '#c5ccb0',
+                300: '#a1ae83',
+                400: '#7f915d',
+                500: '#637542',
+                600: '#4d5c34',
+                700: '#3e4a2b',
+                800: '#333d26',
+                900: '#2b3321',
+                950: '#171c11',
+              },
+              sand: {
+                500: '#c2b280',
+                600: '#a39260',
+              }
+            },
+            fontFamily: {
+              sans: ['Roboto', 'sans-serif'],
+              display: ['Oswald', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #171c11;
+        color: #e3e6d8;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+      .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
